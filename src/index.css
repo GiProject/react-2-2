@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.conteiner {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+ul.filter {
+  display: flex;
+  list-style: none;
+}
+
+ul.filter li {
+  margin-left: 10px;
+  border: 1px solid #333;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+ul.filter li.selected,
+ul.filter li:hover {
+  background: #888181;
+}
+
+ul.filter li:hover {
+  cursor: pointer;
+}
+
+ul.filter li.selected {
+  opacity: 0.8;
+}
+
+ul.filter li.selected:hover {
+  cursor: auto;
+}
