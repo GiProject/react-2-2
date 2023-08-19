@@ -1,6 +1,5 @@
 import './App.css';
-import Portfolio from './Components/Portfolio';
-import Projects from './Components/Projects';
+import Store from './Components/Store';
 
 
 function App() {
@@ -10,10 +9,7 @@ function App() {
   return (
     <div className="App">
       <div className="conteiner">
-        <Portfolio 
-          projects = { Projects }
-          filter = { filter } 
-        />
+        <Store />
       </div>
     </div>
   );
